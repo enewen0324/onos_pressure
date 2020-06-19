@@ -7,9 +7,7 @@ do
 	for (( j=0; j<=45; j=j+1 ))
 	do
 				cat /dev/null > upload.json
-				cat uppartv6 >> upload.json
-				echo "\"ip\":\"fe80::d294:66ff:fe5d:$i$j/128\"" >> upload.json
-				cat downpartv6 >> upload.json
+				sed "s/ABCD/${i}${j}/g" uppartv6 >> upload.json
 				comd="$up_l @upload.json $up_l_f1"
 				eval "$comd"
 	done

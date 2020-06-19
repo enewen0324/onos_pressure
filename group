@@ -1,14 +1,14 @@
 {
     "type":"INDIRECT",
-    "appCookie":"0x70536",
-    "groupId":70536,
+    "appCookie":"0xAABBCCDD",
+    "groupId":QAQ,
     "buckets":[
         {
             "treatment":{
                 "instructions":[
                     {
                         "type":"OUTPUT",
-                        "port":5000
+                        "port":GGININ
                     }
                 ]
             }
